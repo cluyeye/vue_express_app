@@ -1,0 +1,29 @@
+{
+  "name": "vue_express_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cluyeye/vue_express_app.git"
+  },
+  "author": "Coxe Luyeye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cluyeye/vue_express_app/issues"
+  },
+  "homepage": "https://github.com/cluyeye/vue_express_app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
